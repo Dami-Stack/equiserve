@@ -26,7 +26,6 @@ export const investmentBankingSubsection = {
     {
       title: "•	Securities Trading",
     },
-    
   ],
   heroIcon: "twemoji:flag-nigeria",
   id: "investmentBanking",
@@ -227,7 +226,7 @@ export const debtInvestorsSubsection = {
   url: "",
   sameSiteDropDownUrl: true,
   sameSiteUrl: true,
-  dropdownUrl: "/investors/debtInvestors",
+  dropdownUrl: "",
   solutionsTitle: "",
   bgImage: "",
   header: "",
@@ -545,18 +544,18 @@ export const productsAndServicesArray = [
     content:
       "The Nigerian financial system is the second largest in sub-Saharan Africa, just below South Africa, and it consists of a diverse banking system, insurance, and non-bank financial institutions",
   },
-  {
-    id: 2,
-    imgUrl:
-      "https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    title: "South Africa",
-    icon: "twemoji:flag-south-africa",
-    link: "/solutions/investmentManagement",
-    header:
-      "Supporting businesses with comprehensive banking solutions to drive growth and stability.",
-    content:
-      "By international standards, South Africa's Investment and Financial Markets are well diversified, resilient, and developed. The South African market is the largest and biggest in sub-Saharan Africa, with global exposure and best operating practices.",
-  },
+  // {
+  //   id: 2,
+  //   imgUrl:
+  //     "https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  //   title: "South Africa",
+  //   icon: "twemoji:flag-south-africa",
+  //   link: "/solutions/investmentManagement",
+  //   header:
+  //     "Supporting businesses with comprehensive banking solutions to drive growth and stability.",
+  //   content:
+  //     "By international standards, South Africa's Investment and Financial Markets are well diversified, resilient, and developed. The South African market is the largest and biggest in sub-Saharan Africa, with global exposure and best operating practices.",
+  // },
   {
     id: 3,
     imgUrl:

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { navbarData, subsidiaries } from "../utils/data";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { equiserveLogo } from "../assets/images";
@@ -7,7 +7,6 @@ import MobileMenu from "./MobileMenu";
 import { Icon } from "@iconify/react";
 import { analytics, searchNormal } from "../assets/icons";
 import FAQCard from "./FAQCard";
-import { h1 } from "framer-motion/client";
 import NavDropdown from "./NavDropdown";
 
 const Navbar = ({ nav }) => {
@@ -327,7 +326,7 @@ const Navbar = ({ nav }) => {
           <NavDropdown
             isNavDropdownOpen={isNavDropdownOpen}
             closeNavDropdown={closeNavDropdown}
-            style={"h-[280px]"}
+            style={"h-[380px] xl:h-[280px]"}
             title={selectedNavItem?.id}
             subsections={selectedNavItem?.subsections}
             setIsNavDropdownOpen={setIsNavDropdownOpen}

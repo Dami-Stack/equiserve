@@ -72,28 +72,28 @@ const Advisors = () => {
         },
       ],
     },
-    {
-      title: "Trading Platform",
-      logo: jpj,
-      content: [
-        {
-          title: "Company",
-          content: "JP Jenkins",
-        },
-        {
-          title: "Address",
-          content: "5th Floor 101 Wigmore St London W1U 1QU",
-        },
-        {
-          title: "Email Address",
-          content: "info@jpjenkins.com",
-        },
-        {
-          title: "Phone Number",
-          content: "0207 469 0937",
-        },
-      ],
-    },
+    // {
+    //   title: "Trading Platform",
+    //   logo: jpj,
+    //   content: [
+    //     {
+    //       title: "Company",
+    //       content: "JP Jenkins",
+    //     },
+    //     {
+    //       title: "Address",
+    //       content: "5th Floor 101 Wigmore St London W1U 1QU",
+    //     },
+    //     {
+    //       title: "Email Address",
+    //       content: "info@jpjenkins.com",
+    //     },
+    //     {
+    //       title: "Phone Number",
+    //       content: "0207 469 0937",
+    //     },
+    //   ],
+    // },
     {
       title: "Solicitors",
       logo: flashPointLegal,
