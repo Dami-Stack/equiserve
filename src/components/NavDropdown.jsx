@@ -85,7 +85,7 @@ const SingleColumn = ({
       </div>
 
       {/* List */}
-      <div className="flex flex-col">
+      <div className="flex flex-col text-sm">
         {services?.map((service) => {
           return service?.isLink ? (
             <Link
@@ -97,26 +97,26 @@ const SingleColumn = ({
               {service?.title}
             </Link>
           ) : (
-            <div className="" key={service?.title}>
-              {service?.title}
-            </div>
+            <div key={service?.title}>{service?.title}</div>
           );
         })}
       </div>
 
       {/* <!-- Title --> */}
-      <Link
-        onClick={() => setIsNavDropdownOpen((prev) => !prev)}
-        state={subsection}
-        to={link}
-        className={`${
-          isReadMore
-            ? "hover:font-bold text-primary-110"
-            : "text-lg hover:text-primary-110 text-secondary"
-        }  w-fit mt-5 cursor-pointer transition-all ease-in-out duration-200   h-[56px] font-bold  mb-2 line-clamp-2`}
-      >
-        {isReadMore ? "Read More" : content}
-      </Link>
+      {!!link && (
+        <Link
+          onClick={() => setIsNavDropdownOpen((prev) => !prev)}
+          state={subsection}
+          to={link}
+          className={`${
+            isReadMore
+              ? "hover:font-bold text-primary-110"
+              : "text-lg hover:text-primary-110 text-secondary"
+          }  w-fit mt-5 cursor-pointer transition-all ease-in-out duration-200   h-[56px] font-bold  mb-2 line-clamp-2`}
+        >
+          {isReadMore ? "Read More" : content}
+        </Link>
+      )}
     </div>
   );
 };
