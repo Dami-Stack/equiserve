@@ -422,6 +422,20 @@ export const subsidiaries = [
   // },
 ];
 
+export const reports = [
+  {
+    id: 1,
+    imgUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/B%C3%B6rse_Wien_01.jpg/500px-B%C3%B6rse_Wien_01.jpg",
+    title:
+      "Admission of Equiserve’s Debt Securities to listing on the Vienna Stock Exchange MTF",
+    link: "/VO_20251028_Equis_Prog.pdf",
+    content:
+      "Vienna Stock Exchange has approved for admittance of the following issuance programme to listing on the Vienna MTF on 27 October, 2025",
+    date: "29 October, 2025",
+  },
+];
+
 export const insights = [
   {
     id: 3,

@@ -15,6 +15,7 @@ import {
 import GeneralLayout from "./layouts/GeneralLayout";
 import Solution from "./pages/Solution";
 import Insights from "./pages/Insights";
+import Reports from "./pages/Reports";
 
 const App = () => {
   return (
@@ -158,12 +159,13 @@ const App = () => {
           path="/investors/reports"
           element={
             <GeneralLayout>
-              <ComingSoon
+              {/* <ComingSoon
                 text={
                   "Reports, presentations and the company’s announcements will be published here"
                 }
                 title={"Coming Soon!"}
-              />
+              /> */}
+              <Reports />
             </GeneralLayout>
           }
         />
@@ -183,4 +185,3 @@ const App = () => {
 };
 
 export default App;
-

@@ -1,19 +1,17 @@
-import FeatureCard from "./FeatureCard";
-import { insights } from "../utils/data";
+import { reports } from "../utils/data";
+import { FeatureCard } from "../components";
 
-const Featured = ({ data, title }) => {
+const Reports = () => {
   return (
-    <section className="flex justify-center">
+    <section className="flex justify-center pt-36 pb-10">
       {/* Main container */}
       <section id="hero" className="w-full app__container px-5  lg:px-[48px]">
         {/* Title */}
-        <div className="font-bold text-[20px] mb-10">
-          {title || "Featured Insights"}
-        </div>
+        <div className="font-bold text-[20px] mb-10">Reports</div>
 
         {/* Feature items container */}
-        <div className="w-full flex gap-5 gap-y-10 flex-wrap justify-center">
-          {(data || insights)?.map((insight) => {
+        <div className="w-full grid grid-[repeat(auto-fit,minmax(280px,1fr))] gap-8">
+          {reports?.map((insight) => {
             const { content, date, id, imgUrl, link, title } = insight;
             return (
               <FeatureCard
@@ -32,4 +30,4 @@ const Featured = ({ data, title }) => {
   );
 };
 
-export default Featured;
+export default Reports;
